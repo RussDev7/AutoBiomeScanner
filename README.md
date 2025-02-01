@@ -23,20 +23,20 @@
 ----
 
 ### Why is this script needed?
-Here is an example of a `stony_shore` biome being succesfully found on my personal world.
+Here is an example of a `stony_shore` biome being successfully found on my personal world.
 
 ![Screenshot](https://raw.githubusercontent.com/RussDev7/AutoBiomeScanner/refs/heads/main/images/shoresFound.png)
 
-When using [terralith] along side [terratonic], you can find fairly quickly that `stony_shore` become near to none. The reason for this is because Terralith makes these biomes relitivly tiny, then combine that with Terratonic's further smoothing mechanics, the `stony_shore` biome gets completly flatened over and arridicated. So this makes `stony_shore` biomes one of the rarest biomes under these two mods.
+When using [terralith] along side [terratonic], you can find fairly quickly that `stony_shore` become near to none. The reason for this is because Terralith makes these biomes relatively tiny, then combine that with Terratonic's further smoothing mechanics, the `stony_shore` biome gets completly flatened over and arridicated. So this makes `stony_shore` biomes one of the rarest biomes under these two mods.
 
 ![Screenshot](https://raw.githubusercontent.com/RussDev7/AutoBiomeScanner/refs/heads/main/images/shoresInGame.png)
 
 ----
 
 ### How it works?
-This script performs `canvas` click movements through javascript that follow a spiral type pattern. Each movement or "step" moves at half your windows height in all directions. This ensures a smooth transistion throughout all **XY** movements.
+This script performs `canvas` click movements through javascript that follow a spiral type pattern. Each movement or "step" moves at half your windows height in all directions. This ensures a smooth transition throughout all **XY** movements.
 
-After each step, the script then scans each `canvas` element for a specified color, and if none is found, deletes the `canvas` element and illitirates through all remaining `canvas` elements before doing a new step.
+After each step, the script then scans each `canvas` element for a specified color, and if none is found, deletes the `canvas` element and Illiterate through all remaining `canvas` elements before doing a new step.
 
 ![Screenshot](https://raw.githubusercontent.com/RussDev7/AutoBiomeScanner/refs/heads/main/images/autoBiomeScannerMath.png)
 
