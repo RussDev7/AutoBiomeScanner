@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            Auto Biome Scanner
-// @description     Scrolls around the map in a spiral looking for stony_shore
+// @description     Moves around the map looking for stony_shore
 // @version         1.6.0
 // @author          RussDev7
 // @homepageURL     https://github.com/RussDev7/AutoBiomeScanner
@@ -8,8 +8,7 @@
 // @match           https://map.jacobsjo.eu/*
 // @license         MIT
 // @namespace       https://github.com/Stardust-Labs-MC/Terralith
-// @icon            https://victornpb.github.io/undiscord/images/icon128.png
-// @contributionURL https://www.buymeacoffee.com/vitim
+// @icon            https://map.jacobsjo.eu/icon.png
 // @grant           none
 // ==/UserScript==
 
